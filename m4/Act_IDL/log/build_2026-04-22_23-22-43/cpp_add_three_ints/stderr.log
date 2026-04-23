@@ -1,0 +1,26 @@
+[01m[K/home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints/src/add_three_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddThreeIntsClient::send_request(int64_t, int64_t, int64_t)[m[K’:
+[01m[K/home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints/src/add_three_ints_client.cpp:37:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(AddThreeIntsClient*, rclcpp::Client<interfaces::srv::AddThreeInts>::FutureAndRequestId&)[m[K’
+   37 |     auto result = [01;31m[Krclcpp::spin_until_future_complete(this, future)[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints/src/add_three_ints_client.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)[m[K’
+  105 | [01;36m[Kspin_until_future_complete[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints/src/add_three_ints_client.cpp:37:54:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(AddThreeIntsClient*)this[m[K’ (type ‘[01m[KAddThreeIntsClient*[m[K’) to type ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+   37 |     auto result = rclcpp::spin_until_future_complete([01;36m[Kthis[m[K, future);
+      |                                                      [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints/src/add_three_ints_client.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:119:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)[m[K’
+  119 | [01;36m[Kspin_until_future_complete[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:119:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints/src/add_three_ints_client.cpp:37:53:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[KAddThreeIntsClient*[m[K’
+   37 |     auto result = [01;36m[Krclcpp::spin_until_future_complete(this, future)[m[K;
+      |                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_client.dir/build.make:76: CMakeFiles/cpp_client.dir/src/add_three_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cpp_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

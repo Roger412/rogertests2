@@ -1,0 +1,4 @@
+Invoking command in '/home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints': /usr/bin/cmake --build /home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints -- -j12 -l12
+Invoked command in '/home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints' returned '0': /usr/bin/cmake --build /home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints -- -j12 -l12
+Invoking command in '/home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints': /usr/bin/cmake --install /home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints
+Invoked command in '/home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints' returned '0': /usr/bin/cmake --install /home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints

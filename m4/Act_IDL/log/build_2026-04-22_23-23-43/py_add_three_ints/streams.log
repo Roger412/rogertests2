@@ -1,0 +1,27 @@
+[0.524s] Invoking command in '/home/roger/Github/rogertests2/m4/Act_IDL/src/py_add_three_ints': PYTHONPATH=/home/roger/Github/rogertests2/m4/Act_IDL/build/py_add_three_ints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_add_three_ints build --build-base /home/roger/Github/rogertests2/m4/Act_IDL/build/py_add_three_ints/build install --record /home/roger/Github/rogertests2/m4/Act_IDL/build/py_add_three_ints/install.log --single-version-externally-managed install_data
+[0.700s] running egg_info
+[0.711s] writing ../../build/py_add_three_ints/py_add_three_ints.egg-info/PKG-INFO
+[0.711s] writing dependency_links to ../../build/py_add_three_ints/py_add_three_ints.egg-info/dependency_links.txt
+[0.711s] writing entry points to ../../build/py_add_three_ints/py_add_three_ints.egg-info/entry_points.txt
+[0.711s] writing requirements to ../../build/py_add_three_ints/py_add_three_ints.egg-info/requires.txt
+[0.711s] writing top-level names to ../../build/py_add_three_ints/py_add_three_ints.egg-info/top_level.txt
+[0.735s] reading manifest file '../../build/py_add_three_ints/py_add_three_ints.egg-info/SOURCES.txt'
+[0.735s] writing manifest file '../../build/py_add_three_ints/py_add_three_ints.egg-info/SOURCES.txt'
+[0.736s] running build
+[0.736s] running build_py
+[0.736s] copying py_add_three_ints/add_three_ints_client.py -> /home/roger/Github/rogertests2/m4/Act_IDL/build/py_add_three_ints/build/lib/py_add_three_ints
+[0.736s] copying py_add_three_ints/add_three_ints_server.py -> /home/roger/Github/rogertests2/m4/Act_IDL/build/py_add_three_ints/build/lib/py_add_three_ints
+[0.736s] copying py_add_three_ints/__init__.py -> /home/roger/Github/rogertests2/m4/Act_IDL/build/py_add_three_ints/build/lib/py_add_three_ints
+[0.736s] running install
+[0.739s] running install_lib
+[0.750s] running install_data
+[0.751s] copying resource/py_add_three_ints -> /home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints/share/ament_index/resource_index/packages
+[0.751s] copying package.xml -> /home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints/share/py_add_three_ints
+[0.751s] running install_egg_info
+[0.762s] removing '/home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints/lib/python3.10/site-packages/py_add_three_ints-0.0.0-py3.10.egg-info' (and everything under it)
+[0.763s] Copying ../../build/py_add_three_ints/py_add_three_ints.egg-info to /home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints/lib/python3.10/site-packages/py_add_three_ints-0.0.0-py3.10.egg-info
+[0.763s] running install_scripts
+[0.853s] Installing client script to /home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints/lib/py_add_three_ints
+[0.854s] Installing server script to /home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints/lib/py_add_three_ints
+[0.854s] writing list of installed files to '/home/roger/Github/rogertests2/m4/Act_IDL/build/py_add_three_ints/install.log'
+[0.874s] Invoked command in '/home/roger/Github/rogertests2/m4/Act_IDL/src/py_add_three_ints' returned '0': PYTHONPATH=/home/roger/Github/rogertests2/m4/Act_IDL/build/py_add_three_ints/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_add_three_ints build --build-base /home/roger/Github/rogertests2/m4/Act_IDL/build/py_add_three_ints/build install --record /home/roger/Github/rogertests2/m4/Act_IDL/build/py_add_three_ints/install.log --single-version-externally-managed install_data

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/py_add_three_ints/py_add_three_ints.egg-info/PKG-INFO
+../../build/py_add_three_ints/py_add_three_ints.egg-info/SOURCES.txt
+../../build/py_add_three_ints/py_add_three_ints.egg-info/dependency_links.txt
+../../build/py_add_three_ints/py_add_three_ints.egg-info/entry_points.txt
+../../build/py_add_three_ints/py_add_three_ints.egg-info/requires.txt
+../../build/py_add_three_ints/py_add_three_ints.egg-info/top_level.txt
+../../build/py_add_three_ints/py_add_three_ints.egg-info/zip-safe
+py_add_three_ints/__init__.py
+py_add_three_ints/add_three_ints_client.py
+py_add_three_ints/add_three_ints_server.py
+resource/py_add_three_ints
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

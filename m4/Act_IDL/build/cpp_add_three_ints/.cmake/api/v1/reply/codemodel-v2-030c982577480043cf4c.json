@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5071e3ee74aede6a0fc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_add_three_ints",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_add_three_ints_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_add_three_ints_uninstall-4dafa272b74d97efabb5.json",
+					"name" : "cpp_add_three_ints_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_client-0860805cae77c54efa80.json",
+					"name" : "cpp_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_server-97e82b473d97c634b3bb.json",
+					"name" : "cpp_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8949c6bda4061c4f483d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints",
+		"source" : "/home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,2 @@
+source;share/cpp_add_three_ints/environment/ament_prefix_path.sh
+source;share/cpp_add_three_ints/environment/path.sh

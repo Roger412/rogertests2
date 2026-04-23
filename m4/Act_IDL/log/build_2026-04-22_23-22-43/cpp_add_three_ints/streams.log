@@ -1,0 +1,48 @@
+[0.011s] Invoking command in '/home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints:/opt/ros/humble /usr/bin/cmake /home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints -DCMAKE_INSTALL_PREFIX=/home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints
+[0.024s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.137s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.164s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.166s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.170s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.185s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.206s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.207s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.294s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.327s] -- Found interfaces: 0.0.0 (/home/roger/Github/rogertests2/m4/Act_IDL/install/interfaces/share/interfaces/cmake)
+[0.380s] -- Configuring done
+[0.391s] -- Generating done
+[0.394s] -- Build files have been written to: /home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints
+[0.401s] Invoked command in '/home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints:/opt/ros/humble /usr/bin/cmake /home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints -DCMAKE_INSTALL_PREFIX=/home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints
+[0.402s] Invoking command in '/home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints:/opt/ros/humble /usr/bin/cmake --build /home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints -- -j12 -l12
+[0.450s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_server.dir/src/add_three_ints_server.cpp.o[0m
+[0.452s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_client.dir/src/add_three_ints_client.cpp.o[0m
+[2.048s] [01m[K/home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints/src/add_three_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddThreeIntsClient::send_request(int64_t, int64_t, int64_t)[m[K’:
+[2.048s] [01m[K/home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints/src/add_three_ints_client.cpp:37:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(AddThreeIntsClient*, rclcpp::Client<interfaces::srv::AddThreeInts>::FutureAndRequestId&)[m[K’
+[2.048s]    37 |     auto result = [01;31m[Krclcpp::spin_until_future_complete(this, future)[m[K;
+[2.048s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.048s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.048s]                  from [01m[K/home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints/src/add_three_ints_client.cpp:6[m[K:
+[2.048s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const FutureT&, std::chrono::duration<_Rep, _Period>)[m[K’
+[2.049s]   105 | [01;36m[Kspin_until_future_complete[m[K(
+[2.049s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.049s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.049s] [01m[K/home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints/src/add_three_ints_client.cpp:37:54:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(AddThreeIntsClient*)this[m[K’ (type ‘[01m[KAddThreeIntsClient*[m[K’) to type ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[2.049s]    37 |     auto result = rclcpp::spin_until_future_complete([01;36m[Kthis[m[K, future);
+[2.049s]       |                                                      [01;36m[K^~~~[m[K
+[2.049s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.049s]                  from [01m[K/home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints/src/add_three_ints_client.cpp:6[m[K:
+[2.049s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:119:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const FutureT&, std::chrono::duration<_Rep2, _Period2>)[m[K’
+[2.049s]   119 | [01;36m[Kspin_until_future_complete[m[K(
+[2.049s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.050s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:119:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.050s] [01m[K/home/roger/Github/rogertests2/m4/Act_IDL/src/cpp_add_three_ints/src/add_three_ints_client.cpp:37:53:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[KAddThreeIntsClient*[m[K’
+[2.050s]    37 |     auto result = [01;36m[Krclcpp::spin_until_future_complete(this, future)[m[K;
+[2.050s]       |                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.494s] gmake[2]: *** [CMakeFiles/cpp_client.dir/build.make:76: CMakeFiles/cpp_client.dir/src/add_three_ints_client.cpp.o] Error 1
+[2.495s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cpp_client.dir/all] Error 2
+[2.495s] gmake[1]: *** Waiting for unfinished jobs....
+[2.812s] [ 75%] [32m[1mLinking CXX executable cpp_server[0m
+[2.931s] [ 75%] Built target cpp_server
+[2.933s] gmake: *** [Makefile:146: all] Error 2
+[2.935s] Invoked command in '/home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints:/opt/ros/humble /usr/bin/cmake --build /home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints -- -j12 -l12

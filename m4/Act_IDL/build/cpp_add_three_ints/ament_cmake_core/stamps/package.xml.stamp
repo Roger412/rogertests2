@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>cpp_add_three_ints</name>
+  <version>0.0.0</version>
+  <description>C++ service server and client using the interfaces package</description>
+
+  <maintainer email="joserogelioruiz12@gmail.com">roger</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>interfaces</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+  </export>
+</package>

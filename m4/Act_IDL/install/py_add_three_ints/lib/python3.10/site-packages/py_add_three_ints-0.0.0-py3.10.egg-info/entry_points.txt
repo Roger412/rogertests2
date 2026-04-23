@@ -1,0 +1,3 @@
+[console_scripts]
+client = py_add_three_ints.add_three_ints_client:main
+server = py_add_three_ints.add_three_ints_server:main

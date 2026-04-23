@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/py_add_three_ints/py_add_three_ints.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_add_three_ints/py_add_three_ints.egg-info/dependency_links.txt
+writing entry points to ../../build/py_add_three_ints/py_add_three_ints.egg-info/entry_points.txt
+writing requirements to ../../build/py_add_three_ints/py_add_three_ints.egg-info/requires.txt
+writing top-level names to ../../build/py_add_three_ints/py_add_three_ints.egg-info/top_level.txt
+reading manifest file '../../build/py_add_three_ints/py_add_three_ints.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_add_three_ints/py_add_three_ints.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py_add_three_ints/add_three_ints_client.py -> /home/roger/Github/rogertests2/m4/Act_IDL/build/py_add_three_ints/build/lib/py_add_three_ints
+copying py_add_three_ints/add_three_ints_server.py -> /home/roger/Github/rogertests2/m4/Act_IDL/build/py_add_three_ints/build/lib/py_add_three_ints
+copying py_add_three_ints/__init__.py -> /home/roger/Github/rogertests2/m4/Act_IDL/build/py_add_three_ints/build/lib/py_add_three_ints
+running install
+running install_lib
+running install_data
+copying resource/py_add_three_ints -> /home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints/share/ament_index/resource_index/packages
+copying package.xml -> /home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints/share/py_add_three_ints
+running install_egg_info
+removing '/home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints/lib/python3.10/site-packages/py_add_three_ints-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/py_add_three_ints/py_add_three_ints.egg-info to /home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints/lib/python3.10/site-packages/py_add_three_ints-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints/lib/py_add_three_ints
+Installing server script to /home/roger/Github/rogertests2/m4/Act_IDL/install/py_add_three_ints/lib/py_add_three_ints
+writing list of installed files to '/home/roger/Github/rogertests2/m4/Act_IDL/build/py_add_three_ints/install.log'

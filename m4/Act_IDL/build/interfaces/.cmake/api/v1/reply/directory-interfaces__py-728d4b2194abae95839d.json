@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "interfaces__py",
+		"source" : "/home/roger/Github/rogertests2/m4/Act_IDL/build/interfaces/interfaces__py"
+	}
+}

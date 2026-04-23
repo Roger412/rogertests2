@@ -1,0 +1,24 @@
+[0.009s] Invoking command in '/home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints': CMAKE_PREFIX_PATH=/home/roger/Github/rogertests2/m4/Act_IDL/install/interfaces:/home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints /usr/bin/cmake --build /home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints -- -j12 -l12
+[0.070s] [ 50%] Built target cpp_client
+[0.070s] [100%] Built target cpp_server
+[0.083s] Invoked command in '/home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints' returned '0': CMAKE_PREFIX_PATH=/home/roger/Github/rogertests2/m4/Act_IDL/install/interfaces:/home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints /usr/bin/cmake --build /home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints -- -j12 -l12
+[0.085s] Invoking command in '/home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints': CMAKE_PREFIX_PATH=/home/roger/Github/rogertests2/m4/Act_IDL/install/interfaces:/home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints /usr/bin/cmake --install /home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints
+[0.094s] -- Install configuration: ""
+[0.094s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/lib/cpp_add_three_ints/cpp_server
+[0.094s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/lib/cpp_add_three_ints/cpp_client
+[0.095s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/ament_index/resource_index/package_run_dependencies/cpp_add_three_ints
+[0.095s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/ament_index/resource_index/parent_prefix_path/cpp_add_three_ints
+[0.095s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/cpp_add_three_ints/environment/ament_prefix_path.sh
+[0.095s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/cpp_add_three_ints/environment/ament_prefix_path.dsv
+[0.095s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/cpp_add_three_ints/environment/path.sh
+[0.095s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/cpp_add_three_ints/environment/path.dsv
+[0.095s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/cpp_add_three_ints/local_setup.bash
+[0.095s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/cpp_add_three_ints/local_setup.sh
+[0.096s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/cpp_add_three_ints/local_setup.zsh
+[0.096s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/cpp_add_three_ints/local_setup.dsv
+[0.096s] -- Installing: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/cpp_add_three_ints/package.dsv
+[0.096s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/ament_index/resource_index/packages/cpp_add_three_ints
+[0.096s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/cpp_add_three_ints/cmake/cpp_add_three_intsConfig.cmake
+[0.096s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/cpp_add_three_ints/cmake/cpp_add_three_intsConfig-version.cmake
+[0.096s] -- Up-to-date: /home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints/share/cpp_add_three_ints/package.xml
+[0.098s] Invoked command in '/home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints' returned '0': CMAKE_PREFIX_PATH=/home/roger/Github/rogertests2/m4/Act_IDL/install/interfaces:/home/roger/Github/rogertests2/m4/Act_IDL/install/cpp_add_three_ints /usr/bin/cmake --install /home/roger/Github/rogertests2/m4/Act_IDL/build/cpp_add_three_ints
