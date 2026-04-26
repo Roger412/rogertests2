@@ -14,14 +14,18 @@ lpc_order = 12
 preemphasis = 0.95
 train_count = 10
 test_count = 5
+codebook_size = 16   
 
-dataset_root = Path("dataset_comandos_roger/dataset_recortado")
+dataset_root = Path("C:\\Users\\joser\\OneDrive\\Documentos\\GitHub\\rogertests2\\rogertests2\\m4\\Practica1\\dataset_recortado")
 
 # cargar codebooks entrenados en el paso 5
-with open("codebooks_16_lsf_roger.pkl", "rb") as f:
+lsf_filename = f"codebooks_{codebook_size}_lsf_roger.pkl"
+w_filename   = f"codebooks_{codebook_size}_w_roger.pkl"
+
+with open(lsf_filename, "rb") as f:
     codebooks_lsf = pickle.load(f)
 
-with open("codebooks_16_w_roger.pkl", "rb") as f:
+with open(w_filename, "rb") as f:
     codebooks_w = pickle.load(f)
 
 
@@ -311,9 +315,12 @@ accuracy = np.mean(np.array(y_true) == np.array(y_pred)) if len(y_true) > 0 else
 print(f"\nAccuracy global: {accuracy:.4f}")
 
 # guardar resultados
-cm_df.to_csv("matriz_confusion_codebook16_roger.csv", encoding="utf-8-sig")
-pd.DataFrame(rows).to_csv("resultados_prueba_codebook16_roger.csv", index=False, encoding="utf-8-sig")
+cm_filename  = f"matriz_confusion_codebook{codebook_size}_roger.csv"
+res_filename = f"resultados_prueba_codebook{codebook_size}_roger.csv"
+
+cm_df.to_csv(cm_filename, encoding="utf-8-sig")
+pd.DataFrame(rows).to_csv(res_filename, index=False, encoding="utf-8-sig")
 
 print("\nSe guardaron:")
-print(" - matriz_confusion_codebook16.csv")
-print(" - resultados_prueba_codebook16.csv")
+print(f" - {cm_filename}")
+print(f" - {res_filename}")

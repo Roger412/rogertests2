@@ -6,11 +6,11 @@ import soundfile as sf
 a = 0.95
 
 # Carpeta original
-dataset_root = Path("dataset_comandos_roger")
+dataset_root = Path("C:\\Users\\joser\\OneDrive\\Documentos\\GitHub\\rogertests2\\rogertests2\\m4\\Practica1\\dataset_comandos")
 
 # Carpeta de salida
-output_root = Path("dataset_comandos_roger/dataset_preenfasis")
-output_root.mkdir(exist_ok=True)
+output_root = Path("C:\\Users\\joser\\OneDrive\\Documentos\\GitHub\\rogertests2\\rogertests2\\m4\\Practica1\\dataset_preenfasis")
+output_root.mkdir(parents=True, exist_ok=True)
 
 def pre_enfasis(signal, a=0.95):
     y = np.empty_like(signal) # Crear un array vacío del mismo tamaño que la señal original

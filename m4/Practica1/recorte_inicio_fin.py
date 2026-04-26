@@ -61,9 +61,9 @@ def detect_inicio_fin(signal, frame_length=320, hop_length=128): # Función para
     return start_sample, end_sample, zcr, energy, voice_flags
 
 
-input_root = Path("dataset_comandos_roger/dataset_preenfasis")
-output_root = Path("dataset_comandos_roger/dataset_recortado")
-output_root.mkdir(exist_ok=True)
+input_root = Path("C:\\Users\\joser\\OneDrive\\Documentos\\GitHub\\rogertests2\\rogertests2\\m4\\Practica1\\dataset_preenfasis")
+output_root = Path("C:\\Users\\joser\\OneDrive\\Documentos\\GitHub\\rogertests2\\rogertests2\\m4\\Practica1\\dataset_recortado")
+output_root.mkdir(parents=True, exist_ok=True)
 
 for word_dir in input_root.iterdir():
     if word_dir.is_dir():

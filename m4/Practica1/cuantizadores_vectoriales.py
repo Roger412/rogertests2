@@ -10,10 +10,10 @@ frame_length = 320
 hop_length = 128
 lpc_order = 12
 preemphasis = 0.95
-codebook_size = 16
+codebook_size = 64
 train_count = 10
 
-dataset_root = Path("dataset_comandos_roger/dataset_recortado")
+dataset_root = Path("C:\\Users\\joser\\OneDrive\\Documentos\\GitHub\\rogertests2\\rogertests2\\m4\\Practica1\\dataset_recortado")
 
 
 # ==========================================
@@ -389,13 +389,16 @@ for word_dir in sorted(dataset_root.iterdir()):
 # ==========================================
 # GUARDAR RESULTADOS
 # ==========================================
-with open("codebooks_16_lsf_roger.pkl", "wb") as f:
+lsf_filename = f"codebooks_{codebook_size}_lsf_roger.pkl"
+w_filename = f"codebooks_{codebook_size}_w_roger.pkl"
+
+with open(lsf_filename, "wb") as f:
     pickle.dump(codebooks_lsf, f)
 
-with open("codebooks_16_w_roger.pkl", "wb") as f:
+with open(w_filename, "wb") as f:
     pickle.dump(codebooks_w, f)
 
 print("=" * 60)
 print("Se guardaron:")
-print(" - codebooks_16_lsf.pkl")
-print(" - codebooks_16_w.pkl")
+print(f" - {lsf_filename}")
+print(f" - {w_filename}")

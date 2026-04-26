@@ -1,0 +1,11 @@
+﻿,abajo,adelante,arriba,derecha,empezar,explora,izquierda,para,repetir,reversa
+abajo,5,0,0,0,0,0,0,0,0,0
+adelante,0,4,0,0,0,0,0,0,1,0
+arriba,0,0,5,0,0,0,0,0,0,0
+derecha,0,0,0,4,0,0,0,0,0,1
+empezar,0,0,0,0,5,0,0,0,0,0
+explora,0,0,0,0,0,5,0,0,0,0
+izquierda,0,0,0,0,0,0,5,0,0,0
+para,0,0,0,0,0,0,0,5,0,0
+repetir,0,0,0,0,0,0,0,0,5,0
+reversa,0,0,0,0,0,0,0,0,0,5

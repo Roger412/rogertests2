@@ -6,16 +6,16 @@ import time
 
 fs = 16000
 duracion = 3
-palabra = "alto"  # <-- word to record
-N = 1              # <-- number of recordings
-start_index = 2     # <-- starting file number
+palabra = "repetir"  # <-- word to record
+N = 15              # <-- number of recordings
+start_index = 1     # <-- starting file number
 
-INPUT_DEVICE = 13   # pulse
+INPUT_DEVICE = 1   # pulse
 
 print(sd.query_devices())
 print("Default devices:", sd.default.device)
 
-carpeta = Path("m4/dataset_comandos") / palabra
+carpeta = Path("C:\\Users\\joser\\OneDrive\\Documentos\\GitHub\\rogertests2\\rogertests2\\m4\\Practica1\\dataset_comandos\\") / palabra
 carpeta.mkdir(parents=True, exist_ok=True)
 
 for i in range(N):
